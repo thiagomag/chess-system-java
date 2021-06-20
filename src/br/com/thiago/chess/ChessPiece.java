@@ -3,7 +3,7 @@ package br.com.thiago.chess;
 import br.com.thiago.boardgame.Board;
 import br.com.thiago.boardgame.Piece;
 
-public class ChessPiece extends Piece {
+public abstract class ChessPiece extends Piece {
 
     private Color color;
 
@@ -15,4 +15,5 @@ public class ChessPiece extends Piece {
     public Color getColor() {
         return color;
     }
+
 }
